@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+	int first,second;
+
+	clrscr();
+
+	printf("enter the first year=");
+	scanf("%d",&first);
+
+	printf("enter the second year=");
+	scanf("%d",&second);
+
+
+
+	while(first<=second)
+	{
+		if(first%4==0)
+			printf("the leap year is=%d\n",first);
+			first++;
+	}
+	getch();
+}
+
